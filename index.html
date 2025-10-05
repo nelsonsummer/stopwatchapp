@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stopwatchapp</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
+  
 <body>
-    <div class="container">
-        <div id="timer-display">00:00:00.000</div>
-        <div class="buttons">
-            <button id="start">Start</button>
-            <button id="stop">Stop</button>
-            <button id="reset">Reset</button>
-            <button id="lap">Lap</button>
-            <button id="theme">Theme</button>
-        
-        </div>
-        <ul id="laps"></ul>
+    <!--creator name fixed at the top-->
+    <p class="creator">Created by ikechukwu ogwudire</p>
+
+
+ <!--  main container-->
+  <div class="container">
+    <h1 id="status">STOPWATCH</h1>
+    <div id="display">00:00:00:000</div>
+    
+    <div class="buttons">
+      <button id="startStop" class="circle">start</button>
     </div>
+    <div class="buttons">
+      <button id="lap">Lap</button>
+      <button id="Reset">Reset</button>
+      <button id="themeToggle">Toggle Theme</button>
+    </div>
+
+    <ul id="laps"></ul>
+  </div>
+
+
 
     
 
