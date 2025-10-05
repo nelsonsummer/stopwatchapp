@@ -74,6 +74,12 @@ button:hover {
   color: white;
 }
 
+@media (max-width: 768px) {
+  body {
+    font-size: 90%;
+  }
+}
+
 
 
 /* Creator name fixed at the top-left */
